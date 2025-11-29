@@ -1,0 +1,60 @@
+/* General page styling */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Fonts */
+    background-color: #f4f4f4; /* Colors */
+    text-align: center; /* Text */
+    margin: 0; /* Remove browser default margin */
+    padding: 30px;
+}
+
+/* Product card styling */
+.product-card {
+    width: 350px; /* Width */
+    background: white;
+    padding: 20px; /* Padding */
+    margin: 0 auto; /* Center */
+    border: 2px solid #ddd; /* Border */
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2); /* Shadow */
+}
+
+/* Product image styling */
+.product-img {
+    width: 300px; /* Width */
+    height: 300px; /* Height */
+    border-radius: 10px;
+}
+
+/* Text styling */
+.product-title {
+    font-size: 24px; /* Font size */
+    color: #333; /* Color */
+    margin: 10px 0; /* Margin */
+}
+
+.product-desc {
+    font-size: 16px;
+    color: #dd1414;
+    margin: 10px;
+}
+
+.product-price {
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+/* Button styling */
+.btn-buy {
+    background-color: #007bff; /* Button color */
+    color: white;
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-buy:hover {
+    background-color: #dce30c; /* Hover effect */
+}
