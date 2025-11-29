@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-card {
+            background: white;
+            width: 350px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #007BFF;
+            margin-bottom: 10px;
+        }
+
+        .student-info {
+            text-align: center;
+        }
+
+        .student-info h2 {
+            margin: 5px 0;
+            color: #333;
+        }
+
+        .details {
+            margin-top: 15px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .details div {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 10px;
+            background: #f5f5f5;
+            border-radius: 5px;
+        }
+
+        .button {
+            margin-top: 15px;
+            padding: 8px 20px;
+            border: none;
+            background: #007BFF;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="https://via.placeholder.com/120" class="profile-img" alt="Student Photo">
+        <div class="student-info">
+            <h2>Jay Mangal</h2>
+            <p>B.Tech CSE - 1st Year</p>
+        </div>
+
+        <div class="details">
+            <div><span>Roll No:</span><span>24CS001</span></div>
+            <div><span>College:</span><span>ABES EC</span></div>
+            <div><span>Email:</span><span>jay@example.com</span></div>
+            <div><span>Contact:</span><span>9876543210</span></div>
+        </div>
+
+        <button class="button">View More</button>
+    </div>
+
+</body>
+</html>
