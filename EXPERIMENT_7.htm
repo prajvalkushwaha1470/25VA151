@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navigation Menu Example</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: block;
+      background-color: #e3e3e3;
+      padding: 20px;
+      text-align: center;
+      font-size: 20px;
+      border: 2px solid #000;
+    }
+
+    header span {
+      color: rgb(127, 203, 215);
+      font-weight: bold;
+    }
+
+    .inline-menu a {
+      display: inline;
+      padding: 8px;
+      margin-right: 5px;
+      background-color: #c7ddf4;
+      text-decoration: none;
+      border: 1px solid #4a1765;
+    }
+
+    .inline-block-menu a {
+      display: inline-block;
+      padding: 8px;
+      margin: 5px 5px 0 0;
+      background-color: #c8f5b8;
+      text-decoration: none;
+      border: 1px solid #23637e;
+    }
+
+    .float-box {
+      margin: 20px;
+    }
+
+    .float-left {
+      float: left;
+      width: 120px;
+      background-color: #fce3b3;
+      padding: 10px;
+      border: 1px solid #e6b86a;
+      text-align: center;
+    }
+
+    .float-right {
+      float: right;
+      width: 120px;
+      background-color: #fbd0d0;
+      padding: 10px;
+      border: 1px solid #eb7979;
+      text-align: center;
+    }
+
+    .clear {
+      clear: both;
+    }
+
+    .container {
+      border: 2px solid #000;
+      margin: 20px;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      My <span>Navigation</span> Website
+    </header>
+
+    <br>
+
+    <div class="inline-menu">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <br><br>
+
+    <div class="inline-block-menu">
+      <a href="#">Dashboard</a>
+      <a href="#">Profile</a>
+      <a href="#">Messages</a>
+      <a href="#">Logout</a>
+    </div>
+
+    <br><br>
+
+    <div class="float-box">
+      <div class="float-left">Float Left</div>
+      <div class="float-right">Float Right</div>
+      <div class="clear"></div>
+    </div>
+
+  </div>
+</body>
+</html>
