@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>responsive E-commerce product card</title>
+</head>
+<style>
+.main-box {
+      max-width: 350px;
+      width: 400px;
+      margin: 24px auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 2px solid #000;
+      border-radius: 10px;
+}
+.header{
+padding:40px;
+background-color: blue;
+}
+.price {
+      font-size: 20px;
+      color: green;
+      font-weight: bold;
+    }
+
+    .old-price {
+      font-size: 14px;
+      color: #999;
+      text-decoration: line-through;
+      margin-left: 8px;
+    }
+
+</style>
+</head>
+<body>
+  <div class="main-box">
+    <header class="header">ShopEasy</header>
+
+    <section class="product-layout" aria-label="Product">
+      <article class="product-card">
+        <img src="https://image.hm.com/assets/hm/52/2c/522c4003b164b188cc3268639d62078cc68790ff.jpg?imwidth=2" alt="Classic cotton t-shirt on a hanger"height="300" width="300">
+        <h2 class="product-title">Classic Cotton T-Shirt</h2>
+        <p class="product-description">
+          Soft, breathable cotton with a regular fit. Available in multiple colors and sizes.
+        </p>
+
+        <div aria-hidden="false">
+          <span class="price">₹1,599</span>
+          <span class="old-price">₹4,599</span>
+        </div>
+
+        <button class="btn" type="button" aria-label="Add Classic Cotton T-Shirt to cart">
+          Add to Cart
+        </button>
+      </article>
+    </section>
+  </div>
+</body>
+</html>
+
